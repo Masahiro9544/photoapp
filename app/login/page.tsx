@@ -34,7 +34,7 @@ function LoginForm() {
       const data = await res.json()
 
       if (!res.ok) {
-        setError(data.error ?? 'エラーが発生しました')
+        setError(data.error ?? 'エラーが発生しました。')
         return
       }
 
